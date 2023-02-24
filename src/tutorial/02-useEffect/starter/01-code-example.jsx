@@ -1,7 +1,7 @@
-import { useState } from 'react';
+import React from 'react';
 
 const CodeExample = () => {
-  const [value, setValue] = useState(0);
+  const [value, setValue] = React.useState(0);
 
   return (
     <div>

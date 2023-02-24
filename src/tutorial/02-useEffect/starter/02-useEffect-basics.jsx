@@ -1,12 +1,14 @@
-import { useState } from 'react';
+import React from 'react';
 
 const UseEffectBasics = () => {
-  const [value, setValue] = useState(0);
+  const [value, setValue] = React.useState(0);
   const sayHello = () => {
     console.log('hello there');
   };
 
-  sayHello();
+  React.useEffect(() => {
+    sayHello();
+  },[])
 
   return (
     <div>
