@@ -338,3 +338,10 @@ ul {
   text-transform: capitalize;
   display: inline-block;
 }
+.add-user{
+  border: solid black 2px;
+  margin: 10px auto;
+  padding:  10px;
+  width: 300px;
+  border-radius: 5px;
+}

@@ -1,10 +1,12 @@
-import { useState } from 'react';
 
 const UncontrolledInputs = () => {
-  const [value, setValue] = useState(0);
-
+ 
   const handleSubmit = (e) => {
     e.preventDefault();
+    const formData = new FormData(e.currentTarget);
+    const newUser = Object.fromEntries(formData)
+    e.currentTarget.reset()
+    console.log(newUser)
   };
   return (
     <div>
