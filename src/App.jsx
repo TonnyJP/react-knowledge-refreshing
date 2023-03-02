@@ -1,7 +1,7 @@
-import Starter from "./tutorial/06-forms/starter/05-form-data"
+import Starter from "./tutorial/09-context-api/context-self-Test/AppComponent";
 function App() {
   return (
-    <div className='container'>
+    <div className="container">
       <Starter />
     </div>
   );
