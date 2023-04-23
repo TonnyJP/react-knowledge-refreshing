@@ -296,6 +296,9 @@ ul {
   text-transform: capitalize;
 }
 
+hr{
+  margin: 1rem;
+}
 .navbar {
   padding: 1rem;
   display: grid;
